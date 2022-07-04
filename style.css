@@ -1,0 +1,490 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallax{
+    background-image: url(2.jfif);
+    height: 100%;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+.navbar{
+    background-color: #000;
+}
+
+.myname{
+    color: #ffffff;
+    padding-top: 7px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.intro{
+    padding-top: 100px;
+    color: #ffffff;
+}
+
+.intro .myimage img{
+    width: 350px;
+    border-radius: 50%;
+}
+
+.shortintro .myName{
+    font-size: 36px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.shortintro .stat{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.icons{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+} 
+
+.icons span{
+    padding-right: 10px;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.longintro{
+    padding: 30px 10px;
+}
+
+.longintro .hey{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.longintro .Longintro{
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 10px;
+}
+
+.parallax1{
+    background-image: url(2.jfif);
+    height: 120px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.parallax-content{
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.box{
+    padding: 20px 0px;
+    justify-content: center;
+    width: 300px;
+}
+
+.box1{
+    background-color: #F39898;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.box2{
+    background-color: #A5F398;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.box3{
+    background-color: #78ADFE;
+    border-radius: 20px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.head{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.skills{
+    padding: 15px 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.description{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.timeline-section{
+    padding: 20px 0px;
+}
+
+.line{
+    border-left: 3px solid #000;
+    height: 2050px;
+    position: absolute;
+    left: 5%;
+}
+
+.dot{
+    position: relative;
+    left: -12px;
+}
+
+.timeline-box{
+    width: 350px;
+    height: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 40px;
+}
+
+.dots{
+    height: 20px;
+    width: 20px;
+    margin: 30px 0px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.dot2{
+    margin-top: 270px;
+}
+
+.timeline-content{
+    padding: 10px 0px 0px 10px;
+}
+
+.timeline-head{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+.timeline-body{
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.timeline-date{
+    position: absolute;
+    bottom: 20px;
+    font-size: 18px;
+}
+
+#projects, .projects-section{
+    position: relative;
+    top: 2080px;
+}
+
+.projects-section{
+    padding-top: 30px;
+}
+
+.projects-box{
+    width: 350px;
+    height: 250px;
+    margin: auto;
+    background-color: #F7FB3B;
+    border-radius: 20px;
+    padding: 20px 20px;
+}
+
+.projects-head{
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.projects-body{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.footer{
+    position: relative;
+    top: 2130px;
+}
+
+.footer-top{
+    background-color: #1B1A1F;
+}
+
+.footer-content{
+    padding-left: 40px;
+}
+
+.footer-head{
+    padding-top: 30px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.footer-lists{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+
+}
+
+.contactme-list{
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-list-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.sitemap{
+    margin-bottom: 30px;
+}
+
+.footer-bottom{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 16px;
+}
+
+
+
+@media only screen and (min-width: 768px){
+    body, html{
+        height: 100%;
+    }    
+
+    .parallax{
+        background-image: url(1.jfif);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .navbar{
+        position: relative;
+        background: transparent;
+    }
+
+    #mynavbar{
+        position: absolute;
+        right: 30px;
+    }
+
+    .nav-item{
+        margin-left: 20px;
+    }
+
+    .nav-link{
+        padding-top: 17px;
+    }
+
+    .intro{
+        padding-top: 150px;
+        padding-left: 70px;
+    }
+
+    .intro .myimage img{
+        width: 400px;
+        height: 550px;
+        border-radius: 10px;
+    }
+
+    .shortintro{
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+
+    .shortintro .myName{
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .shortintro .stat{
+        text-align: left;
+        font-size: 30px;
+    }
+
+    .icons{
+        text-align: left;
+        padding-top: 20px;
+    }
+
+    .longintro{
+        text-align: center;
+        padding: 40px 0px;
+    }
+
+    .longintro .hey{
+        font-size: 40px;
+        padding-right: 600px;
+    }
+    
+    .longintro .Longintro{
+        font-size: 25px;
+        list-style: 20px;
+    }
+
+    .Longintro .myself{
+        padding-right: 200px;
+    }
+    
+    .Longintro .whoami{
+        padding-right: 170px;
+    }
+
+    .Longintro .freetouch{
+        padding-right: 60px;
+    }
+    
+    .parallax1{
+        background-image: url(1.jfif);
+        background-attachment: fixed;
+        height: 150px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax-content{
+        font-size: 50px;
+        padding: 40px 0px;
+    }
+
+    .box{
+        padding: 60px 0px;
+        margin-left: 70px;
+        width: 350px;
+    }
+
+    .box1, .box2, .box3{
+        height: 300px;
+    }
+
+    .head{
+        font-size: 30px;
+    }
+    
+    .skills{
+        padding-bottom: 20px;
+    }
+    
+    .description{
+        font-size: 20px;
+    }
+
+    .line{
+        left: 50%;
+    }
+
+    .timeline-box-left{
+        position: absolute;
+        left: -370px;
+        text-align: end;
+        padding-right: 10px;
+    }
+
+    .timeline-date{
+        position: absolute;
+        top: -5px;
+        left: -130px;
+    }
+
+    .timeline-date1{
+        position: absolute;
+        top: -5px;
+        left: -200px;
+    }
+
+    .timeline-date2{
+        position: absolute;
+        top: -5px;
+        right: -135px;
+    }
+
+    .timeline-date4{
+        position: absolute;
+        top: -5px;
+        right: -160px;
+    }
+
+    .timeline-date5{
+        position: absolute;
+        top: -5px;
+        left: -165px;
+    }
+
+    .timeline-date6{
+        position: absolute;
+        top: -5px;
+        right: -145px;
+    }
+
+    .timeline-date7{
+        position: absolute;
+        top: -5px;
+        left: -105px;
+    }
+
+    .projects-section{
+        margin-top: 50px;
+    }
+
+    .projects-box{
+        width: 400px;
+        height: 350px;
+        padding: 40px 30px;
+    }
+
+    .projects-head{
+        font-size: 30px;
+    }
+
+    .projects-body{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+
+    .footer{
+        margin-top: 30px;
+    }
+
+    .footer-content{
+        padding-left: 400px;
+    }
+
+}
